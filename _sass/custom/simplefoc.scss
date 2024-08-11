@@ -2,9 +2,9 @@
 //// Typography
 ////
 
-// $body-font-family:  roboto, sans-serif;
+$body-font-family:  roboto, sans-serif;
 // $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
-// $root-font-size: 15px;         // Base font-size for rems
+$root-font-size: 15px;         // Base font-size for rems
 //$body-line-height: 1.4;
 //$content-line-height: 1.5;
 //$body-heading-line-height: 1.15;
@@ -15,9 +15,9 @@
 
 //$white: #fff;
 
-// $grey-dk-000: #959396;
-// $grey-dk-100: #3e3b42;
-// $grey-dk-200: #44434d;
+$grey-dk-000: #959396;
+$grey-dk-100: #3e3b42;
+$grey-dk-200: #44434d;
 //$grey-dk-250: #302d36;
 //$grey-dk-300: #606061;
 
@@ -31,7 +31,7 @@
 //$purple-200: #4e26af;
 //$purple-300: #381885;
 
-// $blue-000: #2c84fa;
+$blue-000: #2c84fa;
 //$blue-100: #2869e6;
 //$blue-200: #264caf;
 //$blue-300: #183385;
@@ -52,19 +52,19 @@
 //$red-300: #dd2e2e;
 
 //$body-background-color: $white;
-// $sidebar-color: $white;
+$sidebar-color: $white;
 //$search-background-color: $white;
 //$table-background-color: $white;
 //$code-background-color: $grey-lt-000;
 //$code-background-color: #f9f9f9;
-// $code-background-color: #30302f;
+$code-background-color: #30302f;
 
 //$body-text-color: $grey-dk-100;
 //$body-heading-color: $grey-dk-100;
 //$search-result-preview-color: $grey-dk-000;
 //$nav-child-link-color: $grey-dk-100;
 //$link-color: $purple-000;
-// $link-color: $blue-000;
+$link-color: $blue-000;
 //$btn-primary-color: $purple-100;
 //$base-button-color: #f7f7f7;
 
@@ -113,9 +113,9 @@
 
 //$gutter-spacing: $sp-6;
 //$gutter-spacing-sm: $sp-4;
-// $nav-width: 300px;
-// $nav-width-md: 270px;
-// $content-width: 1200px;
+$nav-width: 300px;
+$nav-width-md: 270px;
+$content-width: 1200px;
 //$header-height: 60px;
 //$search-results-width: 500px;
 
@@ -123,10 +123,10 @@
 //// Media queries in pixels
 ////
 
-// $media-queries: (
-//     xs: 320px,
-//     sm: 500px,
-//     md: 800px,
-//     lg: $content-width + $nav-width,
-//     xl: 1400px
-// );
+$media-queries: (
+    xs: 320px,
+    sm: 500px,
+    md: 800px,
+    lg: $content-width + $nav-width,
+    xl: 1400px
+);
