@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["info@simplefoc.com"]
 
   spec.summary       = %q{A modern, highly customizable, and responsive Jekyll theme for documention with built-in search.}
-  spec.homepage      = "https://github.com/askuric/simplefoc-docs-theme"
+  spec.homepage      = "https://github.com/askuric/docs_template"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|bin|_layouts|_includes|lib|Rakefile|_sass|LICENSE|README)}i) }
