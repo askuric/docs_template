@@ -34,22 +34,15 @@ search_tokenizer_separator: /[\s/]+/
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Aux links for the upper right navigation
-aux_links:
-  "Arduino SimpleFOC on GitHub":
-    - "https://github.com/simplefoc"
-  "Order Arduino SimpleFOC Shield":
-    - "https://simplefoc.com/simplefoc_shield_product"
-
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020. Distributed by an <a href=\"https://github.com/simplefoc/Arduino-FOC/tree/master/LICENSE\">MIT license.</a>"
+footer_content: "Copyright &copy; 2024. Distributed by an <a href=\"https://github.com/simplefoc/simplefoc-docs-theme/tree/master/LICENSE\">MIT license.</a>"
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-55976594-3
+ga_tracking: ""
 
 plugins:
   - jekyll-seo-tag
@@ -67,3 +60,16 @@ toc:
   ordered_list: false
   list_class: toc-li
   sublist_class: toc-li
+
+# # External navigation links
+# nav_external_links:
+#   - title: "Docs archive"
+#     url: http://olddocs.simplefoc.com
+#     hide_icon: false # set to true to hide the external link icon - defaults to false
+#     fa_icon: "fa-archive" # Font Awesome icon class - defaults to "fa-external-link-alt"
+#     opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
+#   - title: "Docs in Chinese"
+#     url: https://docs.simplefoc.com/docs_chinese
+#     hide_icon: false # set to true to hide the external link icon - defaults to false
+#     fa_icon: "fa-language" # Font Awesome icon class - defaults to "fa-external-link-alt"
+#     opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
