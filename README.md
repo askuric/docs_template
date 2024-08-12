@@ -1,10 +1,14 @@
-# simplefoc.github.io 
+# This is the simplefoc documentation theme based on jekyll documentation theme just-the-docs
 
-Documentation website for SimpleFOCproject
- 
-- [Documentation](https://docs.simplefoc.com)
-- [Community forum](https://community.simplefoc.com)
-- [Shop](https://simplefoc.com/shop)
+It is used to generate the documentation website for the SimpleFOC project. See the [SimpleFOC documentation](https://docs.simplefoc.com) for more information.
+
+## Usage
+
+To use this theme, add `remote_theme: simplefoc/simplefoc-jekyll-theme` to your `_config.yml` file.
+
+```yaml
+remote_theme: simplefoc/simplefoc-jekyll-theme
+```
 
 ## Running the site using anaconda environement
 
